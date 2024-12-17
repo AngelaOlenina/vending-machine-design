@@ -88,7 +88,7 @@ public class VendingMachine {
 
     public int chooseProductToPay() {
         int productCode = user.enterNumber();
-        int priceOfProductToPay = 0;
+        int priceOfProductToPay;
         while (!codeProductsMap.containsKey(productCode)) {
             System.out.println("Sorry, this product code is not correct. Please enter a new code.");
             productCode = user.enterNumber();
