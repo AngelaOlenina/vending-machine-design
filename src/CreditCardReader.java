@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class CreditCardReader implements PaymentSystem {
 
     private static CreditCardReader INSTANCE;

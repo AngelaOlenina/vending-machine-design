@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class CoinAcceptor implements PaymentSystem {
 
     private static CoinAcceptor INSTANCE;

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class BillAcceptor implements PaymentSystem {
 
     private static BillAcceptor INSTANCE;
