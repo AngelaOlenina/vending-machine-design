@@ -2,14 +2,14 @@ import java.util.*;
 
 public class VendingMachine {
 
-    int sumOfBills;
-    int sumOfCoins;
-    int codeOfProductToDispense;
-    Map<Integer, List<Product>> codeProductsMap = new HashMap<>();
+    private int sumOfBills;
+    private int sumOfCoins;
+    private int codeOfProductToDispense;
+    private Map<Integer, List<Product>> codeProductsMap = new HashMap<>();
 
-    PaymentSystem paymentSystem;
-    User user;
-    ServicerOfVendingMachine servicerOfVendingMachine;
+    private PaymentSystem paymentSystem;
+    private User user;
+    private ServicerOfVendingMachine servicerOfVendingMachine;
 
     public VendingMachine(User user, ServicerOfVendingMachine servicerOfVendingMachine) {
         this.user = user;
